@@ -84,8 +84,6 @@ void checkEmail(string input)
         secondHalf += input[k];
     }
     isOk = checkFirstHalf(firstHalf) && checkSecondHalf(secondHalf);
-    // cout << firstHalf << "\n";
-    // cout << secondHalf << "\n";
     cout << (isOk == true ? "Yes\n" : "No\n");
 }
 
